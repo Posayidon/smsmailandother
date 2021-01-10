@@ -1,6 +1,6 @@
 
 <?php
-header("Content-type: text/plain, enctype: multipart/form-data");
+header("Content-type: multipart/form-data");
 var_dump($_POST);
 $to = $_POST['envelope']['to'];
 if ($to == 'thomaslepretre78@gmail.com' || $to == 'charlescretois@gmail.com'){
