@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
 <?php
 header("Content-type: text/plain");
 var_dump($_POST);
@@ -32,5 +25,3 @@ echo($_POST['html']."\n");
 echo("Attachments:\n");
 print_r($_FILES["attachments"]);
 ?>
-  </body>
-</html>
