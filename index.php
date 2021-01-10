@@ -7,9 +7,9 @@
   <body>
 <?php
 header("Content-type: text/plain");
-
+var_dump($_POST)
 $to = $_POST['envelope']['to'];
-if ($to == 'allowed@example.com'){
+if ($to == 'thomaslepretre78@gmaim.com'){
   http_response_code(201);
   echo("success\n");
 }else{
